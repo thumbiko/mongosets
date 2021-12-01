@@ -1,0 +1,354 @@
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+
+// Select the database to use.
+use('Bestsellers');
+
+
+db.sellers.insertMany([
+  {
+          "set_num": "00-1",
+          "name": "Weetabix Castle",
+          "year": "1970",
+          "theme_id": "414",
+          "num_parts": "471"
+     },
+     {
+          "set_num": "0011-2",
+          "name": "Town Mini-Figures",
+          "year": "1978",
+          "theme_id": "84",
+          "num_parts": "12"
+     },
+     {
+          "set_num": "0011-3",
+          "name": "Castle 2 for 1 Bonus Offer",
+          "year": "1987",
+          "theme_id": "199",
+          "num_parts": "2"
+     },
+     {
+          "set_num": "0012-1",
+          "name": "Space Mini-Figures",
+          "year": "1979",
+          "theme_id": "143",
+          "num_parts": "12"
+     },
+     {
+          "set_num": "0013-1",
+          "name": "Space Mini-Figures",
+          "year": "1979",
+          "theme_id": "143",
+          "num_parts": "12"
+     },
+     {
+          "set_num": "0014-1",
+          "name": "Space Mini-Figures",
+          "year": "1979",
+          "theme_id": "143",
+          "num_parts": "12"
+     },
+     {
+          "set_num": "0015-1",
+          "name": "Space Mini-Figures",
+          "year": "1979",
+          "theme_id": "143",
+          "num_parts": "18"
+     },
+     {
+          "set_num": "0016-1",
+          "name": "Castle Mini Figures",
+          "year": "1978",
+          "theme_id": "186",
+          "num_parts": "15"
+     },
+     {
+          "set_num": "00-2",
+          "name": "Weetabix Promotional House 1",
+          "year": "1976",
+          "theme_id": "413",
+          "num_parts": "147"
+     },
+     {
+          "set_num": "00-3",
+          "name": "Weetabix Promotional House 2",
+          "year": "1976",
+          "theme_id": "413",
+          "num_parts": "149"
+     },
+     {
+          "set_num": "00-4",
+          "name": "Weetabix Promotional Windmill",
+          "year": "1976",
+          "theme_id": "413",
+          "num_parts": "126"
+     },
+     {
+          "set_num": "005-1",
+          "name": "Basic Building Set in Cardboard",
+          "year": "1965",
+          "theme_id": "366",
+          "num_parts": "35"
+     },
+     {
+          "set_num": "00-6",
+          "name": "Special Offer",
+          "year": "1985",
+          "theme_id": "67",
+          "num_parts": "3"
+     },
+     {
+          "set_num": "00-7",
+          "name": "Weetabix Promotional Lego Village",
+          "year": "1976",
+          "theme_id": "413",
+          "num_parts": "3"
+     },
+     {
+          "set_num": "010-1",
+          "name": "Basic Building Set in Cardboard",
+          "year": "1965",
+          "theme_id": "366",
+          "num_parts": "57"
+     },
+     {
+          "set_num": "010-3",
+          "name": "Basic Building Set",
+          "year": "1968",
+          "theme_id": "366",
+          "num_parts": "77"
+     },
+     {
+          "set_num": "011-1",
+          "name": "Basic Building Set",
+          "year": "1968",
+          "theme_id": "366",
+          "num_parts": "145"
+     },
+     {
+          "set_num": "022-1",
+          "name": "Basic Building Set",
+          "year": "1968",
+          "theme_id": "366",
+          "num_parts": "110"
+     },
+     {
+          "set_num": "03093-1",
+          "name": "The Race to Build It Board Game",
+          "year": "1999",
+          "theme_id": "502",
+          "num_parts": "70"
+     },
+     {
+          "set_num": "033-2",
+          "name": "Basic Building Set",
+          "year": "1968",
+          "theme_id": "366",
+          "num_parts": "177"
+     },
+     {
+          "set_num": "044-1",
+          "name": "Basic Building Set",
+          "year": "1968",
+          "theme_id": "366",
+          "num_parts": "225"
+     },
+     {
+          "set_num": "055-2",
+          "name": "Basic Building Set",
+          "year": "1968",
+          "theme_id": "366",
+          "num_parts": "256"
+     },
+     {
+          "set_num": "066-1",
+          "name": "Basic Building Set",
+          "year": "1968",
+          "theme_id": "366",
+          "num_parts": "407"
+     },
+     {
+          "set_num": "080-1",
+          "name": "Basic Building Set with Train",
+          "year": "1967",
+          "theme_id": "366",
+          "num_parts": "710"
+     },
+     {
+          "set_num": "088-1",
+          "name": "Super Set",
+          "year": "1969",
+          "theme_id": "469",
+          "num_parts": "615"
+     },
+     {
+          "set_num": "10000-1",
+          "name": "Guarded Inn",
+          "year": "2001",
+          "theme_id": "186",
+          "num_parts": "256"
+     },
+     {
+          "set_num": "10001-1",
+          "name": "Metroliner",
+          "year": "2001",
+          "theme_id": "233",
+          "num_parts": "785"
+     },
+     {
+          "set_num": "10002-1",
+          "name": "Railroad Club Car",
+          "year": "2001",
+          "theme_id": "233",
+          "num_parts": "272"
+     },
+     {
+          "set_num": "10003-1",
+          "name": "1 x 2 Sand Red Bricks",
+          "year": "2001",
+          "theme_id": "254",
+          "num_parts": "100"
+     },
+     {
+          "set_num": "10004-1",
+          "name": "2 x 2 Sand Red Bricks",
+          "year": "2001",
+          "theme_id": "254",
+          "num_parts": "100"
+     },
+     {
+          "set_num": "10005-1",
+          "name": "2 x 4 Sand Red Bricks",
+          "year": "2001",
+          "theme_id": "254",
+          "num_parts": "50"
+     },
+     {
+          "set_num": "10006-1",
+          "name": "1 x 6 Sand Red Bricks",
+          "year": "2001",
+          "theme_id": "254",
+          "num_parts": "50"
+     },
+     {
+          "set_num": "10007-1",
+          "name": "2 x 4 Sand Red Ridge Roof Tiles Steep Slope",
+          "year": "2001",
+          "theme_id": "254",
+          "num_parts": "25"
+     },
+     {
+          "set_num": "10008-1",
+          "name": "2 x 4 Roof Tile Sand Red",
+          "year": "2001",
+          "theme_id": "254",
+          "num_parts": "50"
+     },
+     {
+          "set_num": "10009-1",
+          "name": "Assorted Blue Bricks",
+          "year": "2001",
+          "theme_id": "254",
+          "num_parts": "62"
+     },
+     {
+          "set_num": "100-1",
+          "name": "4.5V Motor with Wheels (Small Version)",
+          "year": "1966",
+          "theme_id": "243",
+          "num_parts": "16"
+     },
+     {
+          "set_num": "10010-1",
+          "name": "Assorted Yellow Bricks",
+          "year": "2003",
+          "theme_id": "254",
+          "num_parts": "63"
+     },
+     {
+          "set_num": "10011-1",
+          "name": "Assorted Blue Plates",
+          "year": "2001",
+          "theme_id": "254",
+          "num_parts": "42"
+     },
+     {
+          "set_num": "10012-1",
+          "name": "Assorted Yellow Plates",
+          "year": "2001",
+          "theme_id": "254",
+          "num_parts": "42"
+     },
+     {
+          "set_num": "10013-1",
+          "name": "Open Freight Wagon",
+          "year": "2001",
+          "theme_id": "238",
+          "num_parts": "121"
+     },
+     {
+          "set_num": "10014-1",
+          "name": "Caboose",
+          "year": "2001",
+          "theme_id": "238",
+          "num_parts": "170"
+     },
+     {
+          "set_num": "10015-1",
+          "name": "Passenger Wagon",
+          "year": "2001",
+          "theme_id": "238",
+          "num_parts": "194"
+     },
+     {
+          "set_num": "10016-1",
+          "name": "Tanker",
+          "year": "2001",
+          "theme_id": "238",
+          "num_parts": "128"
+     },
+     {
+          "set_num": "10017-1",
+          "name": "Hopper Wagon",
+          "year": "2001",
+          "theme_id": "238",
+          "num_parts": "228"
+     },
+
+
+  
+]);
+
+// The drop() command destroys all data from a collection.
+// Make sure you run it against the correct database and collection.
+//db.sales.drop();
+
+// Insert a few documents into the sales collection.
+/*db.sales.insertMany([
+  { '_id': 1, 'item': 'abc', 'price': 10, 'quantity': 2, 'date': new Date('2014-03-01T08:00:00Z') },
+  { '_id': 2, 'item': 'jkl', 'price': 20, 'quantity': 1, 'date': new Date('2014-03-01T09:00:00Z') },
+  { '_id': 3, 'item': 'xyz', 'price': 5, 'quantity': 10, 'date': new Date('2014-03-15T09:00:00Z') },
+  { '_id': 4, 'item': 'xyz', 'price': 5, 'quantity':  20, 'date': new Date('2014-04-04T11:21:39.736Z') },
+  { '_id': 5, 'item': 'abc', 'price': 10, 'quantity': 10, 'date': new Date('2014-04-04T21:23:13.331Z') },
+  { '_id': 6, 'item': 'def', 'price': 7.5, 'quantity': 5, 'date': new Date('2015-06-04T05:08:13Z') },
+  { '_id': 7, 'item': 'def', 'price': 7.5, 'quantity': 10, 'date': new Date('2015-09-10T08:43:00Z') },
+  { '_id': 8, 'item': 'abc', 'price': 10, 'quantity': 5, 'date': new Date('2016-02-06T20:20:13Z') },
+]);
+*/
+
+// Run a find command to view items sold on April 4th, 2014.
+//db.sales.find({ date: { $gte: new Date('2014-04-04'), $lt: new Date('2014-04-05') } });
+
+// Build an aggregation to view total sales for each product in 2014.
+/*const aggregation = [
+  { $match: { date: { $gte: new Date('2014-01-01'), $lt: new Date('2015-01-01') } } },
+  { $group: { _id: '$item', totalSaleAmount: { $sum: { $multiply: [ '$price', '$quantity' ] } } } }
+];
+*/
+
+// Run the aggregation and open a cursor to the results.
+// Use toArray() to exhaust the cursor to return the whole result set.
+// You can use hasNext()/next() to iterate through the cursor page by page.
+//db.sales.aggregate(aggregation);
